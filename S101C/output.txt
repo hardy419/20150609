@@ -1,0 +1,381 @@
+Src file: 10.jpg --> ./page02.php
+
+coords: 126,337,154,365
+
+Src file: 100.jpg --> ./page02_01.php
+
+Src file: 101.jpg --> ./page03.php
+
+coords: 68,127,96,155
+
+Src file: 102.jpg --> ./page03_01.php
+
+coords: 67,354,95,382
+
+Src file: 103.jpg --> ./page03_02.php
+
+Src file: 104.jpg --> ./page04.php
+
+coords: 68,127,96,155
+
+Src file: 105.jpg --> ./page04_01.php
+
+coords: 67,354,95,382
+
+Src file: 106.jpg --> ./page04_02.php
+
+Src file: 107.jpg --> ./page05.php
+
+coords: 34,243,62,271
+
+Src file: 108.jpg --> ./page05_01.php
+
+Src file: 109.jpg --> ./page06.php
+
+coords: 34,243,62,271
+
+Src file: 11.jpg --> ./page06_01.php
+
+coords: 153,491,181,519
+
+Src file: 110.jpg --> ./page06_02.php
+
+Src file: 111.jpg --> ./page07.php
+
+coords: 36,195,64,223
+
+Src file: 112.jpg --> ./page07_01.php
+
+Src file: 113.jpg --> ./page08.php
+
+coords: 34,183,62,211
+
+Src file: 114.jpg --> ./page08_01.php
+
+Src file: 115.jpg --> ./page09.php
+
+coords: 34,137,62,165
+
+Src file: 116.jpg --> ./page09_01.php
+
+Src file: 117.jpg --> ./page10.php
+
+Src file: 118.jpg --> ./page11.php
+
+Src file: 119.jpg --> ./page12.php
+
+coords: 177,234,205,262
+
+Src file: 12.jpg --> ./page12_01.php
+
+Src file: 120.jpg --> ./page13.php
+
+coords: 177,234,205,262
+
+Src file: 121.jpg --> ./page13_01.php
+
+coords: 36,195,64,223
+
+Src file: 122.jpg --> ./page13_02.php
+
+coords: 36,582,64,610
+
+Src file: 123.jpg --> ./page13_03.php
+
+Src file: 124.jpg --> ./page14.php
+
+coords: 66,163,94,191
+
+Src file: 125.jpg --> ./page14_01.php
+
+coords: 65,479,93,507
+
+Src file: 126.jpg --> ./page14_02.php
+
+coords: 70,749,98,777
+
+Src file: 127.jpg --> ./page14_03.php
+
+Src file: 13.jpg --> ./page15.php
+
+Src file: 14.jpg --> ./page16.php
+
+Src file: 15.jpg --> ./page17.php
+
+coords: 0,250,28,278
+
+Src file: 16.jpg --> ./page17_01.php
+
+coords: -2,432,26,460
+
+Src file: 17.jpg --> ./page17_02.php
+
+Src file: 18.jpg --> ./page18.php
+
+coords: -2,522,26,550
+
+Src file: 19.jpg --> ./page18_01.php
+
+Src file: 2.jpg --> ./page19.php
+
+coords: 112,207,140,235
+
+Src file: 20.jpg --> ./page19_01.php
+
+Src file: 21.jpg --> ./page20.php
+
+Src file: 22.jpg --> ./page21.php
+
+Src file: 23.jpg --> ./page22.php
+
+Src file: 24.jpg --> ./page23.php
+
+coords: 106,544,134,572
+
+Src file: 25.jpg --> ./page23_01.php
+
+Src file: 26.jpg --> ./page24.php
+
+Src file: 27.jpg --> ./page25.php
+
+Src file: 28.jpg --> ./page26.php
+
+coords: 1111,712,1139,740
+
+Src file: 29.jpg --> ./page26_01.php
+
+Src file: 3.jpg --> ./page27.php
+
+Src file: 30.jpg --> ./page28.php
+
+Src file: 31.jpg --> ./page29.php
+
+coords: -2,549,26,577
+
+Src file: 32.jpg --> ./page29_01.php
+
+Src file: 33.jpg --> ./page30.php
+
+Src file: 34.jpg --> ./page31.php
+
+Src file: 35.jpg --> ./page32.php
+
+coords: -2,124,26,152
+
+Src file: 36.jpg --> ./page32_01.php
+
+coords: -1,356,27,384
+
+Src file: 37.jpg --> ./page32_02.php
+
+Src file: 38.jpg --> ./page33.php
+
+coords: 78,159,106,187
+
+Src file: 39.jpg --> ./page33_01.php
+
+Src file: 4.jpg --> ./page34.php
+
+coords: 113,267,141,295
+
+Src file: 40.jpg --> ./page34_01.php
+
+Src file: 41.jpg --> ./page35.php
+
+Src file: 42.jpg --> ./page36.php
+
+Src file: 43.jpg --> ./page37.php
+
+Src file: 44.jpg --> ./page38.php
+
+coords: -2,121,26,149
+
+Src file: 45.jpg --> ./page38_01.php
+
+Src file: 46.jpg --> ./page39.php
+
+coords: -2,260,26,288
+
+Src file: 47.jpg --> ./page39_01.php
+
+coords: 948,649,976,677
+
+Src file: 48.jpg --> ./page39_02.php
+
+coords: 948,649,976,677
+
+Src file: 49.jpg --> ./page39_03.php
+
+Src file: 5.jpg --> ./page40.php
+
+coords: 113,662,141,690
+
+Src file: 50.jpg --> ./page40_01.php
+
+Src file: 51.jpg --> ./page41.php
+
+coords: 70,278,98,306
+
+Src file: 52.jpg --> ./page41_01.php
+
+Src file: 53.jpg --> ./page42.php
+
+coords: 427,243,455,271
+
+Src file: 54.jpg --> ./page42_01.php
+
+Src file: 55.jpg --> ./page43.php
+
+coords: -2,65,26,93
+
+Src file: 56.jpg --> ./page43_01.php
+
+coords: 0,261,28,289
+
+Src file: 57.jpg --> ./page43_02.php
+
+coords: -1,494,27,522
+
+Src file: 58.jpg --> ./page43_03.php
+
+Src file: 59.jpg --> ./page44.php
+
+Src file: 6.jpg --> ./page45.php
+
+Src file: 60.jpg --> ./page46.php
+
+Src file: 61.jpg --> ./page47.php
+
+coords: 0,277,28,305
+
+Src file: 62.jpg --> ./page47_01.php
+
+coords: -3,603,25,631
+
+Src file: 63.jpg --> ./page47_02.php
+
+Src file: 64.jpg --> ./page48.php
+
+Src file: 65.jpg --> ./page49.php
+
+Src file: 66.jpg --> ./page50.php
+
+coords: -1,104,27,132
+
+Src file: 67.jpg --> ./page50_01.php
+
+coords: -2,573,26,601
+
+Src file: 68.jpg --> ./page50_02.php
+
+Src file: 69.jpg --> ./page51.php
+
+coords: 102,160,130,188
+
+Src file: 7.jpg --> ./page51_01.php
+
+coords: 113,267,141,295
+
+Src file: 70.jpg --> ./page51_02.php
+
+Src file: 71.jpg --> ./page52.php
+
+coords: 61,158,89,186
+
+Src file: 72.jpg --> ./page52_01.php
+
+coords: 402,158,430,186
+
+Src file: 73.jpg --> ./page52_02.php
+
+coords: 746,158,774,186
+
+Src file: 74.jpg --> ./page52_03.php
+
+coords: 1070,158,1098,186
+
+Src file: 75.jpg --> ./page52_04.php
+
+Src file: 76.jpg --> ./page53.php
+
+coords: 65,66,93,94
+
+Src file: 77.jpg --> ./page53_01.php
+
+coords: 398,65,426,93
+
+Src file: 78.jpg --> ./page53_02.php
+
+coords: 744,65,772,93
+
+Src file: 79.jpg --> ./page53_03.php
+
+coords: 1071,65,1099,93
+
+Src file: 8.jpg --> ./page53_04.php
+
+coords: 114,471,142,499
+
+Src file: 80.jpg --> ./page53_05.php
+
+coords: 200,269,228,297
+
+Src file: 81.jpg --> ./page53_06.php
+
+coords: 200,269,228,297
+
+Src file: 82.jpg --> ./page53_07.php
+
+coords: 2,408,30,436
+
+Src file: 83.jpg --> ./page53_08.php
+
+Src file: 84.jpg --> ./page54.php
+
+Src file: 85.jpg --> ./page55.php
+
+Src file: 86.jpg --> ./page56.php
+
+Src file: 87.jpg --> ./page57.php
+
+coords: 508,299,536,327
+
+Src file: 88.jpg --> ./page57_01.php
+
+coords: 733,299,761,327
+
+Src file: 89.jpg --> ./page57_02.php
+
+coords: 1055,299,1083,327
+
+Src file: 9.jpg --> ./page57_03.php
+
+Src file: 90.jpg --> ./page58.php
+
+Src file: 91.jpg --> ./page59.php
+
+coords: 489,130,517,158
+
+Src file: 92.jpg --> ./page59_01.php
+
+coords: 489,130,517,158
+
+Src file: 93.jpg --> ./page59_02.php
+
+coords: 39,149,67,177
+
+Src file: 94.jpg --> ./page59_03.php
+
+Src file: 95.jpg --> ./page60.php
+
+coords: 39,149,67,177
+
+Src file: 96.jpg --> ./page60_01.php
+
+Src file: 97.jpg --> ./page61.php
+
+coords: 39,149,67,177
+
+Src file: 98.jpg --> ./page61_01.php
+
+Src file: 99.jpg --> ./page62.php
