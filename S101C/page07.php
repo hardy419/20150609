@@ -23,9 +23,9 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/14.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/15.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-				
+				<area shape="rect" coords="-1.1756569847856,150,15.283540802213,180" href="./page07_01.php">
 			</map>
 			</div>
 		</div><!--left_content-->

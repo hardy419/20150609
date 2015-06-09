@@ -10,7 +10,7 @@
 				<div class='title_top'>
 					<h1 class='left h1_title fontweight_normal'>1.1&nbsp;&nbsp;<?php echo $title; ?></h1>
 					<div class='page_size right'>
-						<a href="files/S304C_4A.pdf" target="_blank" class="worksheets"><img src='./images/img_hand.jpg' width=30 /><span>工作紙 4A</span></a>
+						<a href="files/S304C_1A.pdf" target="_blank" class="worksheets"><img src='./images/img_hand.jpg' width=30 /><span>工作紙 1A</span></a>
 					</div>
 					<div class='clear'></div>
 				</div><!--title_top-->
@@ -18,7 +18,7 @@
 					<div class='clear'></div>
 				 	<div class='title_bottom'>
 					<h2 class='left fontweight_normal'><div class="cont_content">1.1A 自然數</div></h2>
-					<h3 class="right" style="color:#984807">正數 負數 自然數</h3>
+					<h3 class="right" style="color:#984807">正數&nbsp;&nbsp;&nbsp;&nbsp;負數&nbsp;&nbsp;&nbsp;&nbsp;自然數</h3>
 				</div><!--title_bottom-->
 			</div><!--cont_title-->
 			<div class='cont'>

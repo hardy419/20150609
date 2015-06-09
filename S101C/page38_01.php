@@ -1,7 +1,7 @@
 <?php
  $title = '前備知識';
  $is_index = 0;
- $con_id="93";				
+ $con_id="66";				
  $line_img = $is_index == 1 ? 'blue_side' : 'green_side';
  include('./temp/header.php');
 ?>
@@ -23,9 +23,9 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/94.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/67.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-				
+				<area shape="rect" coords="-1.1756569847856,336.82572614108,15.283540802213,353.28492392808" href="./page38_02.php">
 			</map>
 			</div>
 		</div><!--left_content-->
