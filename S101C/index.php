@@ -7,9 +7,9 @@
 ?>
 <div class='left_content' style="width:880px;">
 			<div class='cont_title_index' style="width:880px;">
-				<div class='index_title_num left'>12</div>
+				<div class='index_title_num left'>1</div>
 				<div class='title_top_index left'>
-					<h1 class='left h1_title_index fontweight_normal'>比和率</h1>
+					<h1 class='left h1_title_index fontweight_normal'>有向數</h1>
 					<div class='clear'></div>
 				</div><!--title_top_index-->
 				<div class='title_line_index title_line_blue'></div>
@@ -22,8 +22,8 @@
 		    <div class="cont_content"></div>
 		    <img src="images/page/1.jpg" width="850" border="0" usemap="#Map"/>
             <map name="Map" id="Map">
-              <area shape="rect" coords="26,44,120,64" href="page02.php" />
-              <area shape="rect" coords="26,72,255,96" href="page04.php" />
+              <area shape="rect" coords="20,54,110,74" href="page02.php" />
+              <area shape="rect" coords="20,82,140,106" href="page04.php" />
               <area shape="rect" coords="26,101,198,123" href="page06.php" />
               <area shape="rect" coords="25,132,209,152" href="page11.php" />
               <area shape="rect" coords="425,44,570,67" href="page31.php" />
