@@ -25,10 +25,37 @@
 			<div class="cont_content" style="width:100%"></div>
 			<img src="images/page/49.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-				
+              <area id="check-anw" shape="rect" coords="725,274,829,313" href="#" />
 			</map>
+			<div class="page_p">
+              <style>.problem1 input {background-color:transparent;border:none}</style>
+              		<div class="problem1">
+                    	<input type="text" class="text1" style="position: absolute; top: 73px; left: 233px;">
+                        <input type="text" class="text2" style="position: absolute; top: 73px; left: 583px;">
+                        <input type="text" class="text2" style="position: absolute; top: 120px; left: 233px;">
+                        <input type="text" class="text3" style="position: absolute; top: 120px; left: 583px;">
+                        <input type="text" class="text4" style="position: absolute; top: 168px; left: 233px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 168px; left: 583px;">
+                        <input type="text" class="text4" style="position: absolute; top: 213px; left: 233px;">
+                        <input type="text" class="text4" style="position: absolute; top: 213px; left: 583px;">
+                    </div>
+              </div>
 			</div>
 		</div><!--left_content-->
+		<script>
+			var img=new Image();img.src="images/page/50.jpg";
+			$().ready(function (){
+				$('#check-anw').click(function (){
+					if("images/page/49.jpg"==$('.cont>img').attr("src")){
+						$('.cont>img').attr("src","images/page/50.jpg");
+					}
+					else{
+						$('.cont>img').attr("src","images/page/49.jpg");
+					}
+					return false;
+				})
+			})
+		</script>
 <?php include('./temp/right_tools.php'); ?>
 <?php include('./temp/footer.php'); ?>
 

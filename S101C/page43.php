@@ -25,10 +25,42 @@
 			<div class="cont_content" style="width:100%"></div>
 			<img src="images/page/85.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-				
+              <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>
+			<div class="page_p">
+              <style>.problem1 input {background-color:transparent;border:none}</style>
+              		<div class="problem1">
+                    	<input type="text" class="text1" style="position: absolute; top: 55px; left: 212px; width:40px">
+                        <input type="text" class="text2" style="position: absolute; top: 118px; left: 212px; width:40px">
+                        <input type="text" class="text2" style="position: absolute; top: 180px; left: 212px; width:40px">
+                        <input type="text" class="text3" style="position: absolute; top: 334px; left: 212px; width:40px">
+                        <input type="text" class="text4" style="position: absolute; top: 395px; left: 212px; width:40px">
+                    	<input type="text" class="text1" style="position: absolute; top: 459px; left: 212px; width:40px">
+
+                    	<input type="text" class="text1" style="position: absolute; top: 55px; left: 539px; width:40px">
+                        <input type="text" class="text2" style="position: absolute; top: 118px; left: 539px; width:40px">
+                        <input type="text" class="text2" style="position: absolute; top: 180px; left: 539px; width:40px">
+                        <input type="text" class="text3" style="position: absolute; top: 334px; left: 539px; width:40px">
+                        <input type="text" class="text4" style="position: absolute; top: 395px; left: 539px; width:40px">
+                    	<input type="text" class="text1" style="position: absolute; top: 459px; left: 539px; width:40px">
+                    </div>
+              </div>
 			</div>
 		</div><!--left_content-->
+		<script>
+			var img=new Image();img.src="images/page/86.jpg";
+			$().ready(function (){
+				$('#check-anw').click(function (){
+					if("images/page/85.jpg"==$('.cont>img').attr("src")){
+						$('.cont>img').attr("src","images/page/86.jpg");
+					}
+					else{
+						$('.cont>img').attr("src","images/page/85.jpg");
+					}
+					return false;
+				})
+			})
+		</script>
 <?php include('./temp/right_tools.php'); ?>
 <?php include('./temp/footer.php'); ?>
 

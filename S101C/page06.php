@@ -44,6 +44,7 @@
 			</div>
 		</div><!--left_content-->
 		<script>
+			var img=new Image();img.src="images/page/14.jpg";
 			$().ready(function (){
 				$('#check-anw').click(function (){
 					if("images/page/13.jpg"==$('.cont>img').attr("src")){

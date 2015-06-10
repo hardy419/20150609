@@ -1,5 +1,5 @@
 <?php
- $title = '前備知識';
+ $title = '有向數';
  $is_index = 0;
  $con_id="15";				
  $line_img = $is_index == 1 ? 'blue_side' : 'green_side';
@@ -8,25 +8,27 @@
 <div class='left_content'>
 			<div class='cont_title'>
 				<div class='title_top'>
-					<h1 class='left h1_title fontweight_normal'>4.1A&nbsp;&nbsp;<?php echo $title; ?></h1>
+					<h1 class='left h1_title fontweight_normal'>1.2&nbsp;&nbsp;<?php echo $title; ?></h1>
 					<div class='page_size right'>
-						<a href="files/S304C_4A.pdf" target="_blank" class="worksheets"><img src='./images/img_hand.jpg' width=30 /><span>工作紙 4A</span></a>
+						<a href="files/S101C_1B.pdf" target="_blank" class="worksheets"><img src='./images/img_hand.jpg' width=30 /><span>工作紙 1B</span></a>
 					</div>
 					<div class='clear'></div>
 				</div><!--title_top-->
 				<div class='title_line_fullW title_line_green'></div>
 					<div class='clear'></div>
 				 	<div class='title_bottom'>
-					<h2 class='left fontweight_normal'><div class="cont_content">尺規作圖</div></h2>
-					<h3 class="right" style="color:#984807">角平分線</h3>
+					<h2 class='left fontweight_normal'><div class="cont_content">1.2A 有向數</div></h2>
+					<h3 class="right" style="color:#984807">有向數&nbsp;&nbsp;&nbsp;&nbsp;正數&nbsp;&nbsp;&nbsp;&nbsp;負數</h3>
 				</div><!--title_bottom-->
 			</div><!--cont_title-->
 			<div class='cont'>
-			<div class="cont_content" style="width:100%"></div>
+			<div class="cont_content" style="width:100%">出現了負數的觀念後，我們對事物的描述就更豐富及更容易了。</div>
 			<img src="images/page/16.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,253.94190871369,15.283540802213,270.40110650069" href="./page07_02.php">
 			</map>
+			<div title="溫度表" style="position:absolute;left:647px;top:6px;width:170px;height:260px;z-index:100"></div>
+			<div title="升降機" style="position:absolute;left:680px;top:267px;width:142px;height:108px;z-index:100"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>

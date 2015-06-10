@@ -25,10 +25,107 @@
 			<div class="cont_content" style="width:100%"></div>
 			<img src="images/page/119.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-				<area shape="rect" coords="104.04564315353,137.55186721992,120.50484094053,154.01106500692" href="./page60_01.php">
+              <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>
+			<div class="page_p">
+              <style>.problem1 input {background-color:transparent;border:none}</style>
+					<div class="problem1">
+						<div style="position: absolute; top: 115px; left: 125px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p1">
+							<label for="p1_a"></label>
+						</div>
+						<div style="position: absolute; top: 144px; left: 125px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p1">
+							<label for="p1_a"></label>
+						</div>
+					</div>
+					<div class="problem1">
+						<div style="position: absolute; top: 115px; left: 372px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p2">
+							<label for="p1_a"></label>
+						</div>
+						<div style="position: absolute; top: 144px; left: 372px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p2">
+							<label for="p1_a"></label>
+						</div>
+					</div>
+					<div class="problem1">
+						<div style="position: absolute; top: 115px; left: 620px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p3">
+							<label for="p1_a"></label>
+						</div>
+						<div style="position: absolute; top: 144px; left: 620px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p3">
+							<label for="p1_a"></label>
+						</div>
+					</div>
+					<div class="problem1">
+						<div style="position: absolute; top: 265px; left: 125px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p4">
+							<label for="p1_a"></label>
+						</div>
+						<div style="position: absolute; top: 293px; left: 125px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p4">
+							<label for="p1_a"></label>
+						</div>
+					</div>
+					<div class="problem1">
+						<div style="position: absolute; top: 265px; left: 372px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p5">
+							<label for="p1_a"></label>
+						</div>
+						<div style="position: absolute; top: 293px; left: 372px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p5">
+							<label for="p1_a"></label>
+						</div>
+					</div>
+					<div class="problem1">
+						<div style="position: absolute; top: 265px; left: 620px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p6">
+							<label for="p1_a"></label>
+						</div>
+						<div style="position: absolute; top: 293px; left: 620px;" class="checked_box">
+							<span class="round" style="width:13px;height:13px"></span>
+							<input type="radio" dis="a" ans="b" id="p1_a" name="page11_p6">
+							<label for="p1_a"></label>
+						</div>
+					</div>
+              		<div class="problem1">
+                    	<input type="text" class="text1" style="position: absolute; top: 136px; left: 190px;">
+                        <input type="text" class="text2" style="position: absolute; top: 136px; left: 437px;">
+                        <input type="text" class="text2" style="position: absolute; top: 136px; left: 684px;">
+                        <input type="text" class="text3" style="position: absolute; top: 286px; left: 190px;">
+                        <input type="text" class="text4" style="position: absolute; top: 286px; left: 437px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 286px; left: 684px;">
+                    </div>
+              </div>
 			</div>
 		</div><!--left_content-->
+		<script>
+			var img=new Image();img.src="images/page/120.jpg";
+			$().ready(function (){
+				$('#check-anw').click(function (){
+					if("images/page/119.jpg"==$('.cont>img').attr("src")){
+						$('.cont>img').attr("src","images/page/120.jpg");
+					}
+					else{
+						$('.cont>img').attr("src","images/page/119.jpg");
+					}
+					return false;
+				})
+			})
+		</script>
 <?php include('./temp/right_tools.php'); ?>
 <?php include('./temp/footer.php'); ?>
 
