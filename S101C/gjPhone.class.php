@@ -69,10 +69,28 @@ class gjPhone
                     abs($src_rgbarray['blue']-$rgb1starray['blue']) < 16)
                 {
                     // candidate position, check deeper...
-                    $this->foundImgPosX = $x;
-                    $this->foundImgPosY = $y;
-                    $found = true;
-                    break;
+                    $sum_dist = 0;
+                    $num_points = 0;
+                    for($oy=0; $oy < $size[1]; ++$oy) if($y+$oy < $src_size[1]) {
+                        for($ox=0; $ox < $size[0]; ++$ox) if($x+$ox < $src_size[0]) {
+                            $src_rgb = imagecolorat($src_img,$x+$ox,$y+$oy);
+                            $src_rgbarray = imagecolorsforindex($src_img, $src_rgb);
+                            $rgb = imagecolorat($img,$ox,$oy);
+                            $rgbarray = imagecolorsforindex($img, $rgb);
+                            $sum_dist += ($src_rgbarray['red']-$rgbarray['red'])*($src_rgbarray['red']-$rgbarray['red']);
+                            $sum_dist += ($src_rgbarray['blue']-$rgbarray['blue'])*($src_rgbarray['blue']-$rgbarray['blue']);
+                            $sum_dist += ($src_rgbarray['green']-$rgbarray['green'])*($src_rgbarray['green']-$rgbarray['green']);
+                            $num_points++;
+                        }
+                    }
+                    $avg_dist = $sum_dist/$num_points;
+                    //echo "<h3>Average Distance Square: {$avg_dist}</h3>";
+                    if($avg_dist < 3000) {
+                        $this->foundImgPosX = $x;
+                        $this->foundImgPosY = $y;
+                        $found = true;
+                        break;
+                    }
                 }
             }
             if($found) break;
