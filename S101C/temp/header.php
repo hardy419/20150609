@@ -4,8 +4,8 @@
 		header('Location:./login.php');
 
 	}
-	include('include.php');
-	if(isset($con_id))$bm=$db->select('bookmark','bm_user_id="'.$_COOKIE['etext_cookie'].'" and bm_subject_id=17 and bm_page_id="'.$con_id.'" limit 1');
+	require_once('include.php');
+	if(isset($con_id))$bm=$db->select('bookmark','bm_user_id="'.$_COOKIE['etext_cookie'].'" and bm_subject_id='.$subject_id.' and bm_page_id="'.$con_id.'" limit 1');
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -56,6 +56,10 @@ function open3()
 {
 
 	var diag = new Dialog();
+	
+	var title=$('h2').text();
+				
+	title="頁: <?php $title_name=explode('_',str_replace('page','',str_replace('.php','',substr($_SERVER['PHP_SELF'],strrpos($_SERVER['PHP_SELF'],'/')+1))));echo $title_name[0];?>";
 
 	diag.Width = 655;
 
@@ -63,7 +67,7 @@ function open3()
 
 	diag.Title = "";
 
-	diag.URL = "note.php?con_id=<?php echo $con_id;?>";
+	diag.URL = "note.php?con_id=<?php echo $con_id;?>&title="+title;
 
 	diag.show();
 
@@ -78,18 +82,20 @@ function open4()
 			// alert($('.tl_bookmark_btn').attr('s'));
 			if($('.tl_bookmark_btn').attr('s')=='0')
 			{
-				var title=$('h1').html();
+				var title=$('h2').text();
 				
-				title=title.replace('&nbsp;','');
-				title=title.replace('&nbsp;','');
-				title=title.replace('&nbsp;','');
-				title=title.replace('&nbsp;','');
+				title="頁: <?php $title_name=explode('_',str_replace('page','',str_replace('.php','',substr($_SERVER['PHP_SELF'],strrpos($_SERVER['PHP_SELF'],'/')+1))));echo $title_name[0];?>";
+				
+				// title=title.replace('&nbsp;','');
+				// title=title.replace('&nbsp;','');
+				// title=title.replace('&nbsp;','');
+				// title=title.replace('&nbsp;','');
 				$('.tl_bookmark_btn').css('background-image','url("images/images/tl_bookmark_t.png")');
 				$.ajax
 				({ 
 				type: "post", 
 				data: 'title='+title,
-				url : "model/mark.php?page=<?php echo $con_id;?>&user=<?php echo $_COOKIE['etext_cookie'];?>&subject=17&action=update",
+				url : "model/mark.php?page=<?php echo $con_id;?>&user=<?php echo $_COOKIE['etext_cookie'];?>&subject=<?PHP echo $subject_id; ?>&action=update",
 				success: function(data)
 				{
 					$('.tl_bookmark_btn').attr('s',1);
@@ -102,7 +108,7 @@ function open4()
 				$.ajax
 				({ 
 				type: "get", 
-				url : "model/mark.php?page=<?php echo $con_id;?>&user=<?php echo $_COOKIE['etext_cookie'];?>&subject=17&action=delete",
+				url : "model/mark.php?page=<?php echo $con_id;?>&user=<?php echo $_COOKIE['etext_cookie'];?>&subject=<?PHP echo $subject_id; ?>&action=delete",
 				success: function(data)
 				{
 					$('.tl_bookmark_btn').attr('s',0);
@@ -253,7 +259,7 @@ function btnPrintClick(){
 
 				    <a class='tl_notes_btn' href="javascript:;" onclick="open6()" title="筆記管理"></a>
 
-				    <a class='tl_pdf_btn' href="./files/S112C.pdf" title="pdf" target="_blank"></a>
+				    <a class='tl_pdf_btn' href="./files/<?PHP echo $pdf_file; ?>" title="pdf" target="_blank"></a>
 					
 				    <a class='tl_dictionary_btn' href="https://hk.dictionary.yahoo.com/" title="詞典" target="_blank"></a>
 					

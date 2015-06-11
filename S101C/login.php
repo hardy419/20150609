@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php echo '比和率'; ?></title>
+<title><?php echo '有向數'; ?></title>
 <link rel="stylesheet" type='text/css' href='./css/style.css'/>
 <script type="text/javascript" src="./zDrag.js"></script>
 <script type="text/javascript" src="./zDialog.js"></script>
@@ -49,7 +49,7 @@ function open4()
 <body>
 
 <div class="warpper login_bg">
-<div style="position:absolute;margin:300px 0px 0px 350px; font-size:48px;color:blue; font-family:微软雅黑;">比和率</div>
+<div style="position:absolute;margin:300px 0px 0px 350px; font-size:48px;color:blue; font-family:微软雅黑;">有向數</div>
 	<div class='login'>
     
 	<form method='post' action='do_login.php' name='login_form'>

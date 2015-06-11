@@ -1,10 +1,8 @@
-﻿	
-	$.ajaxSetup({ 
-		async : false 
-	});
+﻿
 	
 	var lastPage = 58;
 	
+		page_action();
 	function getQueryString(name) {
 		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
 		var r = window.location.search.substr(1).match(reg);
@@ -53,7 +51,6 @@
 		
 		var num = document.getElementById('currentPage').value;
 		var n = num;
-		page_action();
 
 		get_position = $(".get_position").val();
 		get_count = $(".get_count").val();

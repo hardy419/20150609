@@ -1,3 +1,6 @@
+<?php 
+require_once('./temp/include.php');
+?>
 	</div><!--content--></div><!--warpper-->
 	<script>
       // For hightlighting
@@ -20,7 +23,7 @@
              });
              function _get(){
    				var url='../../config/highlights.php';
-                 $.post(url,{'page':'<?php echo $con_id;?>','user':<?php echo $_COOKIE['etext_cookie'];?>,'subject':17,'action':'select'},function(data){
+                 $.post(url,{'page':'<?php echo $con_id;?>','user':<?php echo $_COOKIE['etext_cookie'];?>,'subject':<?PHP echo $subject_id; ?>,'action':'select'},function(data){
                              var count=jQuery(".cont_content").length;
 							 
                              var item=0;
@@ -134,7 +137,7 @@
            	 }
            	 function _post(action,index){
            		var url='../../config/highlights.php';
-           		$.post(url,{'page':'<?php echo $con_id;?>','user':<?php echo $_COOKIE['etext_cookie'];?>,'subject':17,'action':action,'index':index},function(data){
+           		$.post(url,{'page':'<?php echo $con_id;?>','user':<?php echo $_COOKIE['etext_cookie'];?>,'subject':19,'action':action,'index':index},function(data){
 
                	});
              }

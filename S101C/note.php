@@ -25,6 +25,20 @@ $().ready(function (){
 	$('#download_file').click(function (){
 		window.location.href="note.php?con_id=<?php echo $_GET['con_id'];?>&action=download";
 	})
+	$('#del_all_note').click(function (){
+		if(confirm('是否移除當前頁面所有筆記?')){
+			// alert('1');
+			$.ajax
+			({ 
+			type: "get", 
+			url : "model/del_note.php?action=delete_page_all&page_id=<?php echo $_GET['con_id'];?>",
+			success: function(data)
+			{
+				$('.noteall').hide();
+			}
+			});
+		}
+	})
 })
 </script>
 </head>
@@ -41,19 +55,21 @@ $().ready(function (){
   </tr>
 <?php $i=1;if(!empty($result_data)){?>
     <?php foreach($result_data as $r_data){?>
-	<tr id="note<?php echo $r_data['id'];?>"><td height="30"><span style=" padding: 10px 0;" class="nomaltext"><?php echo $i;?> :<a href="<?php echo $r_data['note_page'];?>" target="_top">
+	<tr id="note<?php echo $r_data['id'];?>" class="noteall"><td height="30"><span style=" padding: 10px 0;" class="nomaltext"><?php echo $i;?> :<a href="<?php echo $r_data['note_page'];?>" target="_top">
 	<?php if(strlen($r_data['note_desc'])>50){echo mb_substr($r_data['note_desc'],0,25,'utf-8').'...';}else{echo $r_data['note_desc'];}?></a></span></td><td width="10%"><img class="del_note" xid="<?php echo $r_data['id'];?>" src="./images/x.png" style="cursor: pointer;"></td></tr>
 	<?php $i++;}?>
 <?php }?>
   <tr>
     <td>
       <textarea name="note_description" cols="65" rows="5" ><?php //if($result_data)echo $result_data[0]['note_desc'];?></textarea>
+	  <input type="hidden" name="title" value="<?php echo $_GET['title'];?>" />
     </td>
   </tr>
   <tr>
     <td width="966">
       <input type="submit" name="Submit" value="提交" />
       <input type="button" name="Download" id="download_file" value="下載筆記" />
+      <input type="button" name="delete" id="del_all_note" value="刪除當前頁面所有筆記" />
     </td>
   </tr>
 </table></form>

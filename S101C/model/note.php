@@ -6,13 +6,13 @@ if($_GET['action']=='delete' && !empty($_GET['id']))
 }
 if(!empty($_POST['note_description']))
 {
-	$note_description=addslashes($_POST['note_description']);
+	$note_description=addslashes($_POST['title'].' : '.$_POST['note_description']);
 	$data=array();
 	$data=array(
 		'user_id' => trim($_COOKIE['etext_cookie']),
 		'note_description' => $note_description,
 		'note_con_id' => trim($_GET['con_id']),
-		'subject_id' => 17,
+		'subject_id' => $subject_id,
 		'section_id' => trim($_GET['section_id'])
 	);
 	// if($db->select('notes','user_id="'.$_COOKIE['etext_cookie'].'" and subject_id=1 and section_id="'.$_GET['section_id'].'"'))
@@ -27,7 +27,7 @@ if(!empty($_POST['note_description']))
 
 
 
-$note_result=$db->select('notes','user_id="'.trim($_COOKIE['etext_cookie']).'" and subject_id=17 and note_con_id="'.$_GET['con_id'].'" order by note_id desc');
+$note_result=$db->select('notes','user_id="'.trim($_COOKIE['etext_cookie']).'" and subject_id='.$subject_id.' and note_con_id="'.$_GET['con_id'].'" order by note_id desc');
 $result_data=array();
 $temp_file='';
 $temp_num=1;
@@ -58,8 +58,12 @@ if($_GET['action']=='download')
 {
 	if(empty($temp_file))return false;
 	$temp_file_name=mktime().$_COOKIE['etext_cookie'].$_GET['con_id'];
-	file_put_contents('./downloads/'.$temp_file_name.'.doc',$temp_file);
-	header("Location: ./downloads/".$temp_file_name.'.doc');
-	// unlink('./downloads/'.$temp_file_name.'.doc');
+	file_put_contents('./downloads/'.$temp_file_name.'.txt',$temp_file);
+	// header("Location: ./downloads/".$temp_file_name.'.txt');
+	$filename="./downloads/".$temp_file_name.'.txt';
+	header("Content-Type: application/force-download");
+	header("Content-Disposition: attachment; filename=".basename($filename));
+	readfile($filename);exit;
+	// unlink('./downloads/'.$temp_file_name.'.txt');
 }
 ?>
