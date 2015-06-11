@@ -1,5 +1,5 @@
 <?php
- $title = '前備知識';
+ $title = '有向數的加減運算';
  $is_index = 0;
  $con_id="36";				
  $line_img = $is_index == 1 ? 'blue_side' : 'green_side';
@@ -8,17 +8,17 @@
 <div class='left_content'>
 			<div class='cont_title'>
 				<div class='title_top'>
-					<h1 class='left h1_title fontweight_normal'>4.1A&nbsp;&nbsp;<?php echo $title; ?></h1>
+					<h1 class='left h1_title fontweight_normal'>1.3&nbsp;&nbsp;<?php echo $title; ?></h1>
 					<div class='page_size right'>
-						<a href="files/S304C_4A.pdf" target="_blank" class="worksheets"><img src='./images/img_hand.jpg' width=30 /><span>工作紙 4A</span></a>
+						<a href="files/S101C_1C.pdf" target="_blank" class="worksheets"><img src='./images/img_hand.jpg' width=30 /><span>工作紙 1C</span></a>
 					</div>
 					<div class='clear'></div>
 				</div><!--title_top-->
 				<div class='title_line_fullW title_line_green'></div>
 					<div class='clear'></div>
 				 	<div class='title_bottom'>
-					<h2 class='left fontweight_normal'><div class="cont_content">尺規作圖</div></h2>
-					<h3 class="right" style="color:#984807">角平分線</h3>
+					<h2 class='left fontweight_normal'><div class="cont_content">1.3A 加和減</div></h2>
+					<h3 class="right" style="color:#984807">負數</h3>
 				</div><!--title_bottom-->
 			</div><!--cont_title-->
 			<div class='cont'>

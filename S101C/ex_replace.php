@@ -5,8 +5,8 @@ $files=scandir('.');
 
 //////////////////////////////////////////////////////////////
 // Change range
-$start='09_00';
-$end='11_99';
+$start='43_00';
+$end='45_99';
 //////////////////////////////////////////////////////////////
 
 foreach($files as $file) if('page' == substr($file,0,4)) {
@@ -31,17 +31,17 @@ foreach($files as $file) if('page' == substr($file,0,4)) {
     //////////////////////////////////////////////////////////////
     // Change contents
     /*array_push($str1, '前備知識');
-    array_push($str2, '有向數');
+    array_push($str2, '有向數的乘除運算');
     array_push($str1, '4.1A&nbsp;&nbsp;<?php echo $title; ?>');
-    array_push($str2, '1.2&nbsp;&nbsp;<?php echo $title; ?>');
+    array_push($str2, '1.4&nbsp;&nbsp;<?php echo $title; ?>');
     array_push($str1, '工作紙 4A', 'files/S304C_4A.pdf');
-    array_push($str2, '工作紙 1B', 'files/S101C_1B.pdf');
+    array_push($str2, '工作紙 1D', 'files/S101C_1D.pdf');
     array_push($str1, '尺規作圖');
-    array_push($str2, '1.2B 正數和負數');
+    array_push($str2, '1.4D 有向數四則計算');
     array_push($str1, '角平分線');
-    array_push($str2, '有向數&nbsp;&nbsp;&nbsp;&nbsp;正數&nbsp;&nbsp;&nbsp;&nbsp;負數');*/
+    array_push($str2, '有向數');*/
     array_push($str1, '100%"></div>');
-    array_push($str2, '100%">我們目前可以看到負號是以減號「-」表示 (同學可猜猜為何會選此符號)，例如 -5，有時更會寫成 (-5)。正數一般可以不寫符號，例如 7 就已代表正 7，但有時要特別強調其正的屬性時會寫成 +7 或 (+7) (同學也可再猜猜為何正號會以加號來表示)。本書以簡潔為取向，在不會引起誤會情況下，不用寫的負號或括號就會盡量不寫，例如﹕(+8)會寫為8，(-5)會寫為-5。</div>');
+    array_push($str2, '100%">有向數的四則運算是將前面所學的綜合運用，最重要留意計算次序，按部就班。</div>');
     //////////////////////////////////////////////////////////////
 
     $f_con=str_replace($str1,$str2,$html);

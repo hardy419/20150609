@@ -3,7 +3,7 @@
 		async : false 
 	});
 	
-	var lastPage = 61;
+	var lastPage = 57;
 	
 	function getQueryString(name) {
 		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
