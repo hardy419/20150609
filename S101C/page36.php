@@ -1,7 +1,7 @@
 <?php
  $title = '前備知識';
  $is_index = 0;
- $con_id="63";				
+ $con_id="75";				
  $line_img = $is_index == 1 ? 'blue_side' : 'green_side';
  include('./temp/header.php');
 ?>
@@ -23,51 +23,12 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/64.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/76.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-              <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
+				<area shape="rect" coords="38.208852005533,38.796680497925,54.668049792531,55.255878284924" href="./page36_01.php">
 			</map>
-			<div class="page_p">
-              <style>.problem1 input {background-color:transparent;border:none}</style>
-              		<div class="problem1">
-                    	<input type="text" class="text1" style="position: absolute; top: 101px; left: 119px;">
-                        <input type="text" class="text2" style="position: absolute; top: 336px; left: 119px;">
-
-                        <input type="text" class="text2" style="position: absolute; top: 70px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 108px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 145px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 186px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 317px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 352px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 387px; left: 606px;">
-                        <input type="text" class="text2" style="position: absolute; top: 428px; left: 606px;">
-
-                        <input type="text" class="text2" style="position: absolute; top: 70px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 108px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 145px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 186px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 317px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 352px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 387px; left: 703px;">
-                        <input type="text" class="text2" style="position: absolute; top: 428px; left: 703px;">
-                    </div>
-              </div>
 			</div>
 		</div><!--left_content-->
-		<script>
-			var img=new Image();img.src="images/page/65.jpg";
-			$().ready(function (){
-				$('#check-anw').click(function (){
-					if("images/page/64.jpg"==$('.cont>img').attr("src")){
-						$('.cont>img').attr("src","images/page/65.jpg");
-					}
-					else{
-						$('.cont>img').attr("src","images/page/64.jpg");
-					}
-					return false;
-				})
-			})
-		</script>
 <?php include('./temp/right_tools.php'); ?>
 <?php include('./temp/footer.php'); ?>
 

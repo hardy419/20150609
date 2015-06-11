@@ -1,7 +1,7 @@
 <?php
  $title = '前備知識';
  $is_index = 0;
- $con_id="90";				
+ $con_id="98";				
  $line_img = $is_index == 1 ? 'blue_side' : 'green_side';
  include('./temp/header.php');
 ?>
@@ -23,39 +23,31 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/91.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/99.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>
 			<div class="page_p">
               <style>.problem1 input {background-color:transparent;border:none}</style>
               		<div class="problem1">
-                    	<input type="text" class="text1" style="position: absolute; top: 52px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 96px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 169px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 213px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 286px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 329px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 403px; left: 348px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 448px; left: 348px; width:40px;">
-
-                    	<input type="text" class="text1" style="position: absolute; top: 72px; left: 435px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 190px; left: 435px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 307px; left: 435px; width:40px;">
-                    	<input type="text" class="text1" style="position: absolute; top: 422px; left: 435px; width:40px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 58px; left: 424px; width:76px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 153px; left: 424px; width:76px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 248px; left: 424px; width:76px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 343px; left: 424px; width:76px;">
+                    	<input type="text" class="text1" style="position: absolute; top: 438px; left: 424px; width:76px;">
                     </div>
               </div>
 			</div>
 		</div><!--left_content-->
 		<script>
-			var img=new Image();img.src="images/page/92.jpg";
+			var img=new Image();img.src="images/page/100.jpg";
 			$().ready(function (){
 				$('#check-anw').click(function (){
-					if("images/page/91.jpg"==$('.cont>img').attr("src")){
-						$('.cont>img').attr("src","images/page/92.jpg");
+					if("images/page/99.jpg"==$('.cont>img').attr("src")){
+						$('.cont>img').attr("src","images/page/100.jpg");
 					}
 					else{
-						$('.cont>img').attr("src","images/page/91.jpg");
+						$('.cont>img').attr("src","images/page/99.jpg");
 					}
 					return false;
 				})

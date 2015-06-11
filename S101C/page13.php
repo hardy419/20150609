@@ -1,7 +1,7 @@
 <?php
  $title = '前備知識';
  $is_index = 0;
- $con_id="23";				
+ $con_id="26";				
  $line_img = $is_index == 1 ? 'blue_side' : 'green_side';
  include('./temp/header.php');
 ?>
@@ -23,12 +23,35 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/24.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/27.jpg" width="850" border="0" usemap="#Map"/>
 			<map name="Map" id="Map">
-				<area shape="rect" coords="62.309820193638,319.77869986169,78.769017980636,336.23789764869" href="./page13_01.php">
+              <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>
+			<div class="page_p">
+              <style>.problem1 input {background-color:transparent;border:none}</style>
+              		<div class="problem1">
+                    	<input type="text" class="text1" style="position: absolute; top: 390px; left: 551px;">
+                        <input type="text" class="text2" style="position: absolute; top: 390px; left: 613px;">
+                        <input type="text" class="text2" style="position: absolute; top: 435px; left: 551px;">
+                        <input type="text" class="text3" style="position: absolute; top: 435px; left: 613px;">
+                    </div>
+              </div>
 			</div>
 		</div><!--left_content-->
+		<script>
+			var img=new Image();img.src="images/page/28.jpg";
+			$().ready(function (){
+				$('#check-anw').click(function (){
+					if("images/page/27.jpg"==$('.cont>img').attr("src")){
+						$('.cont>img').attr("src","images/page/28.jpg");
+					}
+					else{
+						$('.cont>img').attr("src","images/page/27.jpg");
+					}
+					return false;
+				})
+			})
+		</script>
 <?php include('./temp/right_tools.php'); ?>
 <?php include('./temp/footer.php'); ?>
 

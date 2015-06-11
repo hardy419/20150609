@@ -10,6 +10,7 @@ $n = $_GET['n'];
 
 // first delete the file
 unlink("page{$n}.php");
+echo "<h3>File: page{$n}.php Deleted!</h3>";
 
 $ncode = $n.'_00';
 
@@ -44,6 +45,7 @@ foreach($files as $file) if('page' == substr($file,0,4)) {
     echo "<h3>File: {$file} --> {$new_file} </h3>";
 
     file_put_contents($new_file, $f_con);
+    unlink($file);
 }
 
 echo '<h2>Done!</h2>';
