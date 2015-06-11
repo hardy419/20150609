@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
 				
 			</map>
+            <div style="position:absolute;left:49px;top:13px;width:715px;height:65px" title="數線"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>

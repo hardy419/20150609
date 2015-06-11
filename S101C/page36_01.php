@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
 				<area shape="rect" coords="233.95573997234,38.208852005533,250.41493775934,54.668049792531" href="./page36_02.php">
 			</map>
+            <div style="position:absolute;left:11px;top:122px;width:819px;height:123px" title="小明向西方跑"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>

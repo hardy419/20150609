@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>
+            <div style="position:absolute;left:64px;top:203px;width:688px;height:64px" title="數線"></div>
 			<div class="page_p">
               <style>.problem1 input {background-color:transparent;border:none}</style>
               		<div class="problem1">

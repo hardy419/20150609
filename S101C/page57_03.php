@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
 				
 			</map>
+            <div style="position:absolute;left:683px;top:154px;width:154px;height:140px" title="擲飛鏢遊戲"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>

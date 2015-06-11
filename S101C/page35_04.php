@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
 				
 			</map>
+            <div style="position:absolute;left:8px;top:194px;width:826px;height:118px" title="小明向東方跑"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>

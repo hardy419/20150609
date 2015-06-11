@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,322.71784232365,15.283540802213,339.17704011065" href="./page15_01.php">
 			</map>
+            <div style="position:absolute;left:49px;top:13px;width:715px;height:65px" title="數線"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>

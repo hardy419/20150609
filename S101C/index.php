@@ -23,17 +23,21 @@
 		    <img src="images/page/1.jpg" width="850" border="0" usemap="#Map"/>
             <map name="Map" id="Map">
               <area shape="rect" coords="20,54,110,74" href="page02.php" />
-              <area shape="rect" coords="20,82,140,106" href="page04.php" />
-              <area shape="rect" coords="26,101,198,123" href="page06.php" />
-              <area shape="rect" coords="25,132,209,152" href="page11.php" />
-              <area shape="rect" coords="425,44,570,67" href="page31.php" />
-              <area shape="rect" coords="425,75,523,94" href="page32.php" />
-              <area shape="rect" coords="425,103,575,122" href="page33.php" />
-              <area shape="rect" coords="24,231,106,251" href="page17.php" />
-              <area shape="rect" coords="25,256,211,280" href="page20.php" />
-              <area shape="rect" coords="25,287,187,307" href="page23.php" />
-              <area shape="rect" coords="24,382,151,404" href="page26.php" />
-              <area shape="rect" coords="25,412,125,431" href="page28.php" />
+              <area shape="rect" coords="11,78,149,108" href="page05.php" />
+              <area shape="rect" coords="12,174,153,199" href="page07.php" />
+              <area shape="rect" coords="11,203,155,233" href="page09.php" />
+              <area shape="rect" coords="11,234,111,267" href="page11.php" />
+              <area shape="rect" coords="11,268,184,301" href="page15.php" />
+              <area shape="rect" coords="12,355,128,384" href="page17.php" />
+              <area shape="rect" coords="11,386,225,418" href="page19.php" />
+              <area shape="rect" coords="10,418,167,452" href="page23.php" />
+              <area shape="rect" coords="416,41,669,79" href="page27.php" />
+              <area shape="rect" coords="415,79,556,111" href="page29.php" />
+              <area shape="rect" coords="416,169,605,204" href="page33.php" />
+              <area shape="rect" coords="416,204,565,234" href="page35.php" />
+              <area shape="rect" coords="416,238,567,265" href="page41.php" />
+              <area shape="rect" coords="416,267,609,303" href="page43.php" />
+              <area shape="rect" coords="416,354,585,388" href="page47.php" />
             </map>
 		    </div>
 		</div><!--left_content-->

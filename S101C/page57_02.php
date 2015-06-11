@@ -27,6 +27,7 @@
 			<map name="Map" id="Map">
 				<area shape="rect" coords="41.147994467497,440.28354080221,57.607192254495,456.74273858921" href="./page57_03.php">
 			</map>
+            <div style="position:absolute;left:683px;top:154px;width:154px;height:140px" title="擲飛鏢遊戲"></div>
 			</div>
 		</div><!--left_content-->
 <?php include('./temp/right_tools.php'); ?>
