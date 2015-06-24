@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/36.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/36.jpg" width="850" border="0" usemap="#Map" title="在小學中我們學會了 4 + 1 = 5，4 - 1 = 3，1 + 4 = 5；在本課前面部分學了 1 - 4 = -3 ; 並開始引入了負數，那麼負數如何運算呢?-4 + 1、 -4 - 1、 -1 + 4、 -1 - 4 等答案是甚麼呢?-1 - 4 讀作負一減四。兩個 「-」號有不同意思!「負」是形容詞，「減」是動詞。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-0.58782849239281,209.26694329184,15.871369294606,225.72614107884" href="./page17_02.php">
 			</map>

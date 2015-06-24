@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/27.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/27.jpg" width="850" border="0" usemap="#Map" style="最常見的數線形式如下﹕為著簡潔，數線通常只顯示整數作參考，其實數線包括了整數以外的點，例如 1 與 2 之中間點代表 1.5，-4與 -5 之中間點代表 -4.5。練習﹕在方格中填上所代表的有向數。"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

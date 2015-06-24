@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/71.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/71.jpg" width="850" border="0" usemap="#Map" title="仍用前面的例子，只不過更清晰地定義向東方的距離和速度為正，則向西方的距離和速度為負。現時之後的時間為正，現時之前的時間為負。假設小明向東方一直以每小時7km的速度跑，問在下列時刻中他在哪裏?"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="35.857538035961,92.876901798064,52.31673582296,109.33609958506" href="./page35_01.php">
 			</map>

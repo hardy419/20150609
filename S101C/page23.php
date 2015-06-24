@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/44.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/44.jpg" width="850" border="0" usemap="#Map" title="基本上我們已可計算一個有向數加或減一個正數，但是否每次都要構思那個情境或運用數線呢? 我們嘗試從已得的結果去找一些更快的方法。已有的結果如下﹕我們看到若不計正負符號，答案的數字只有 5 和 3，那麼何時會出現 5，何時會出現 3?若確定數字之後，答案的正負號有沒有規律可按而作出決定?"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,71.12724757953,15.283540802213,87.586445366528" href="./page23_01.php">
 			</map>

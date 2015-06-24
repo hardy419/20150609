@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">加減正數的情況已有法則解決，加減一個負數如何計算呢?</div>
-			<img src="images/page/51.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/51.jpg" width="850" border="0" usemap="#Map" title="3 + (-4)、 -3 + (-4)、 3 - (-4)、 -3 - (-4) 等如何計算呢?我們也以一個情境來比擬：一個企業集團如實質擁有資產，則該資產為正，若負債則看為負資產。若合併一個新成員則資產會相加，若撇除一個成員則會從原有資產減去撇除的資產。如此則"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="41.147994467497,163.4163208852,57.607192254495,179.8755186722" href="./page27_01.php">
 			</map>

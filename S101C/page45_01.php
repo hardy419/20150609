@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數的四則運算是將前面所學的綜合運用，最重要留意計算次序，按部就班。</div>
-			<img src="images/page/98.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/98.jpg" width="850" border="0" usemap="#Map" title="例三"/>
 			<map name="Map" id="Map">
 				
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">人類對數學的探索是由數算 1、2、3、4…開始，這些可數算的數字稱為自然數，後來人類進一步利用這些自然數作簡單的計算，在很長的時期中使用自然數已可解決生活上的問題，但隨著生活上日趨複雜，自然數就不足以解決所有問題了。</div>
-			<img src="images/page/2.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/2.jpg" width="850" border="0" usemap="#Map" title="例一﹕如果我有8元，要支付5元，還剩多少?"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="65.836791147994,121.68049792531,82.295988934993,138.13969571231" href="./page02_01.php">
 			</map>

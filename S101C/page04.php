@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">人類對數學的探索是由數算 1、2、3、4…開始，這些可數算的數字稱為自然數，後來人類進一步利用這些自然數作簡單的計算，在很長的時期中使用自然數已可解決生活上的問題，但隨著生活上日趨複雜，自然數就不足以解決所有問題了。</div>
-			<img src="images/page/7.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/7.jpg" width="850" border="0" usemap="#Map" title="數學家將上述兩個情況統一起來，以減數去處理付出後剩下的財產，並引入一種新類別的數稱為負數 。在數字前加上負號 (寫法和減號相同) 去處理不夠減的情況，得出﹕"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="66.424619640387,156.95020746888,82.883817427386,173.40940525588" href="./page04_01.php">
 			</map>

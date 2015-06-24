@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">出現了負數的觀念後，我們對事物的描述就更豐富及更容易了。</div>
-			<img src="images/page/18.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/18.jpg" width="850" border="0" usemap="#Map" title="後來人們更將一些可抵銷的東西分別用正負數來定義，例如賺錢的交易以正數表示成果，虧蝕則以負數表示；股票的升幅以正數表示，跌幅以負數表示。一般來說，正數含有「高於」、「上升」、「增加」、「利潤」等涵義，而負數則含有相反的涵義。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,306.84647302905,15.283540802213,323.30567081604" href="./page08_01.php">
 			</map>

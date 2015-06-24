@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/101.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/101.jpg" width="850" border="0" usemap="#Map" title="例一﹕小明在一座香港樓宇的不同樓層中上落，問他最後在哪一個樓層。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="39.972337482711,74.654218533887,56.43153526971,91.113416320885" href="./page47_01.php">
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/33.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/33.jpg" width="850" border="0" usemap="#Map" title="練習﹕輸入正確符號。練習﹕排列以下數字。(1) 將 -4, 6, 0, -7, 6.4, -4.8, 3 由大至小排列﹕(2) 將 3.3, –5, 8, –4.5, 7.1, –4, –4.2 由小至大排列﹕"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

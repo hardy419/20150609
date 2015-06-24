@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/29.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/29.jpg" width="850" border="0" usemap="#Map" title="練習﹕在適當的方格內填入代表該點的英文字母。(1) P 點在數線上代表 +6，Q 點在數線上代表 -4，在數線上畫出 P 和 Q。(2) R 點在數線上代表 -7，S 點在數線上代表 +2，在數線上畫出 R 和 S"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/122.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/122.jpg" width="850" border="0" usemap="#Map" title="找出正確答案。(1) 一輛汔車分別向東或西走了6次車程，分別是向西行8km、再向東行6km、再向東行5km、再向西行4km、再向西行8km 及再向東行7km。問該汽車最後距離出發點多遠及在哪一方向。(2)在本週有五個股市交易天中，首四天恆生指數的升跌幅度分別是跌25點、升36點、跌120點及升70點，而本周合共跌了59點，問最後一個交易天升跌多少。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="21.161825726141,342.11618257261,37.62102351314,358.57538035961" href="./page56_02.php">
 			</map>

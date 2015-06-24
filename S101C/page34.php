@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/69.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/69.jpg" width="850" border="0" usemap="#Map" title="看一個實際應用「距離 = 速度 × 時間」的例子﹕小明以每小時7km的速度沿直線走了 3小時，問他走了多少?在小學很易得出答案是21km (7 × 3 = 21，在計算中所有數值都用了正數)。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="59.958506224066,94.052558782849,76.417704011065,110.51175656985" href="./page34_01.php">
 			</map>

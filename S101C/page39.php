@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/84.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/84.jpg" width="850" border="0" usemap="#Map" title="要留意乘數和加減數的分別，後者運用「累積」「抵銷」方法時，會產生不同的「絕對數值」 (絕對數值就是不理會正負號的數值，描述該數的大小，例如 +5 和 –5 的絕對數值都是 5)。而乘數題目的答案的「絕對數值」卻不會受數字的正負符號影響﹕要留心在不同的運算中要運用不同的規則，不可混淆。"/>
 			<map name="Map" id="Map">
 				
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/59.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/59.jpg" width="850" border="0" usemap="#Map" title="練習﹕以下各數式中的括號可否直接除去?練習﹕找出各題的正確答案，包括填入數字及選擇適當運算符號。"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

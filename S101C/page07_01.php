@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">出現了負數的觀念後，我們對事物的描述就更豐富及更容易了。</div>
-			<img src="images/page/16.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/16.jpg" width="850" border="0" usemap="#Map" title="生活例子一﹕我們知道水在攝氏表0C 時會結冰，低於這溫度的就以負的溫度表示(例如北極的冬天溫度可低至40C)。生活例子二﹕"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,253.94190871369,15.283540802213,270.40110650069" href="./page07_02.php">
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/39.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/39.jpg" width="850" border="0" usemap="#Map" title="將負數的運算引入﹕-4+1、-4-1、-1 + 4、-1 - 4 等答案是甚麼呢?我們再以數線來檢核這些結果。"/>
 			<map name="Map" id="Map">
 				
 			</map>

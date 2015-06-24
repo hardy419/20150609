@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/103.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/103.jpg" width="850" border="0" usemap="#Map" title="例一﹕小明在一座香港樓宇的不同樓層中上落，問他最後在哪一個樓層。註﹕曾提及在中國內地，地面層叫1樓，上一層叫2樓，地面下一層叫-1樓，沒有0樓，所以這計法不適合在中國內地沒有0樓 的樓宇。例如在中國內地，由3樓落5層會去到-3樓。"/>
 			<map name="Map" id="Map">
 				
 			</map>

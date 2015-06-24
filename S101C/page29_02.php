@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/57.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/57.jpg" width="850" border="0" usemap="#Map" title="除加減一個負數可撤除括號外，亦有其他可撇除括號的情況﹕第一個數字如有括號可直接除去。其次是括號內若是正數，就無需正號及括號 (因為 +a 其實就等於 a)。總結撤除括號法則﹕"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-0.58782849239281,290.38727524205,15.871369294606,306.84647302905" href="./page29_03.php">
 			</map>

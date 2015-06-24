@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/81.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/81.jpg" width="850" border="0" usemap="#Map" title="現假設小明一直以每小時7km的速度向西方跑，問在下列時刻中他在哪裏?有向數乘法計算法則：不理正負符號先計算乘積的絕對值(不理正負符號的數值)，再根據上述規則決定正負。 ［註：絕對值非課程所需，有關絕對值之概念請參第 1.2 節］"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="117.56569847856,158.12586445367,134.02489626556,174.58506224066" href="./page37_01.php">
 			</map>

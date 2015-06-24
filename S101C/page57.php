@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/124.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/124.jpg" width="850" border="0" usemap="#Map" title="(3)某公司去年1至3月平均每月虧損5萬元，4至6月平均每月盈餘3萬元，7至9月平均每月盈餘4萬元，10至12月平均每月虧損6萬元，該公司去年總盈虧情況如何?"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="38.796680497925,95.816044260028,55.255878284924,112.27524204703" href="./page57_01.php">
 			</map>

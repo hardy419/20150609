@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/87.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/87.jpg" width="850" border="0" usemap="#Map" title="從小學我們學過﹕被乘數 × 乘數 = 積 同時可得到﹕乘數=積÷被乘數及被乘數 =積÷乘數 利用前面所得的結果﹕"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="298.61687413555,175.76071922545,315.07607192254,192.21991701245" href="./page41_01.php">
 			</map>

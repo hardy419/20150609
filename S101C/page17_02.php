@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/37.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/37.jpg" width="850" border="0" usemap="#Map" title="在小學中我們學會了 4 + 1 = 5，4  1 = 3，1 + 4 = 5；在本課前面部分學了 1  4 = 3 ; 並開始引入了負數，那麼負數如何運算呢?4 + 1、 4  1、 1 + 4、 1  4 等答案是甚麼呢?1  4 讀作負一減四。兩個 「」號有不同意思!「負」是形容詞，「減」是動詞。我們以一個情境來協助理解，若我擁有實質資產就看為正資產，負債則看為負資產 (正負是形容我的資產情況)。生意有利潤則會加入我的資產，生意有虧蝕則會從我的資產中減去虧蝕的數目 (加減則是對我的資產產生增加或減少的變化)。"/>
 			<map name="Map" id="Map">
 				
 			</map>

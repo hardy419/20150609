@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/83.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/83.jpg" width="850" border="0" usemap="#Map" title="從上述例子，可得出若 (+a)、(+b) 是正數及 (-a)、(-b) 是負數，則﹕計算時先計 ab 之數值，再跟規則決定正負號。"/>
 			<map name="Map" id="Map">
 				
 			</map>

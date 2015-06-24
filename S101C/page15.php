@@ -23,7 +23,8 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/31.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/31.jpg" width="850" border="0" usemap="#Map" title="我們知道在自然數中，1 < 2 < 3 < 4 < 5 < 6… ，觀察上方的數線，我們可見到右方的自然數比左方的大。
+此性質可否推廣至數線上所有數?以擁有資產或負債來比擬，有3.5元比有3元富有，有3元比沒有錢富有，沒有錢也相對地比負債2元富有，負債2元也相對地比負債2.4元富有。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,322.71784232365,15.283540802213,339.17704011065" href="./page15_01.php">
 			</map>

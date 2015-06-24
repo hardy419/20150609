@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/68.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/68.jpg" width="850" border="0" usemap="#Map" title="在小學時我們學到一個自然數乘一個自然數是加法的累積，例如 7 × 4 = 7 + 7 + 7 + 7，累積的次數是可數的。按上述情況，我們可以考慮一個負數 (被乘數) 乘一個自然數 (乘數)，但正數乘負數及負數乘負數又如何呢?憑上述方法難以得到結論。為解決上述問題，我們需尋找一條用乘法的公式，其中被乘數、乘數及積皆可用有向數表示。在前節中我們曾提及凡有相反意義及可抵銷的數量可用有向數表示，而其中﹕ 「距離 = 速度 × 時間」正可協助我們理解有向數的乘法。"/>
 			<map name="Map" id="Map">
 				
 			</map>

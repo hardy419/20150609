@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">我們目前可以看到負號是以減號「-」表示 (同學可猜猜為何會選此符號)，例如 -5，有時更會寫成 (-5)。正數一般可以不寫符號，例如 7 就已代表正 7，但有時要特別強調其正的屬性時會寫成 +7 或 (+7) (同學也可再猜猜為何正號會以加號來表示)。本書以簡潔為取向，在不會引起誤會情況下，不用寫的負號或括號就會盡量不寫，例如﹕(+8)會寫為8，(-5)會寫為-5。</div>
-			<img src="images/page/20.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/20.jpg" width="850" border="0" usemap="#Map" title="練習﹕以正負數表達以下情況或解讀正負數的表達意思﹕"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

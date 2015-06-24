@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">加一個正數 (例如自然數)，數值會變大，在數線應向右邊走，減一個正數 (例如自然數)，數值會變小，在數線應向左邊走。</div>
-			<img src="images/page/42.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/42.jpg" width="850" border="0" usemap="#Map" title="-4 + 1 及 -4 - 1 如何顯示?"/>
 			<map name="Map" id="Map">
 				
 			</map>

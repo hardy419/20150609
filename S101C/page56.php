@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/121.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/121.jpg" width="850" border="0" usemap="#Map" title="找出正確答案。(1) 一輛汔車分別向東或西走了6次車程，分別是向西行8km、再向東行6km、再向東行5km、再向西行4km、再向西行8km 及再向東行7km。問該汽車最後距離出發點多遠及在哪一方向。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="21.161825726141,114.6265560166,37.62102351314,131.0857538036" href="./page56_01.php">
 			</map>

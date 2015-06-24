@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/112.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/112.jpg" width="850" border="0" usemap="#Map" title="例四﹕一輛汔車分別向南或北走了6次車程，首5次分別是向南行8km、再向南行6km、再向北行5km、再向南行4km及再向北行7km。最後他在出發點南方2km，問最後一程如何行走。"/>
 			<map name="Map" id="Map">
 				
 			</map>

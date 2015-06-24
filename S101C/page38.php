@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/82.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/82.jpg" width="850" border="0" usemap="#Map" title="從上述例子，可得出若 (+a)、(+b) 是正數及 (-a)、(-b) 是負數，則﹕"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="1.1756569847856,239.83402489627,17.634854771784,256.29322268326" href="./page38_01.php">
 			</map>

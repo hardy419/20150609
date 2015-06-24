@@ -23,7 +23,8 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/32.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/32.jpg" width="850" border="0" usemap="#Map" title="我們知道在自然數中，1 < 2 < 3 < 4 < 5 < 6… ，觀察上方的數線，我們可見到右方的自然數比左方的大。
+此性質可否推廣至數線上所有數?以擁有資產或負債來比擬，有3.5元比有3元富有，有3元比沒有錢富有，沒有錢也相對地比負債2元富有，負債2元也相對地比負債2.4元富有。所以「右方代表的數比左方大」可在整條數線上成立。總結來說﹕除以往正數之間比較外，正數比 0 和負數都大，零大於負數，而若 a 和 b 是兩個正數及 a > b，則 –a < -b。"/>
 			<map name="Map" id="Map">
 				
 			</map>

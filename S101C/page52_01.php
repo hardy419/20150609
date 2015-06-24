@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/114.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/114.jpg" width="850" border="0" usemap="#Map" title="例五﹕一份測驗卷有20條題目，答對可得5分，答錯則扣3分，不答仍要扣1分。小明不答2題而其餘題目則答對14題，問小明最後分數是多少。"/>
 			<map name="Map" id="Map">
 				
 			</map>

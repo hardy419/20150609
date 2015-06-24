@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/67.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/67.jpg" width="850" border="0" usemap="#Map" title="在小學時我們學到一個自然數乘一個自然數是加法的累積，例如 7 × 4 = 7 + 7 + 7 + 7，累積的次數是可數的。按上述情況，我們可以考慮一個負數 (被乘數) 乘一個自然數 (乘數)，但正數乘負數及負數乘負數又如何呢?憑上述方法難以得到結論。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.1756569847856,336.82572614108,15.283540802213,353.28492392808" href="./page33_02.php">
 			</map>

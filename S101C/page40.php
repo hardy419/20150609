@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/85.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/85.jpg" width="850" border="0" usemap="#Map" title="練習﹕找出各題的正確答案。"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/62.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/62.jpg" width="850" border="0" usemap="#Map" title="將撤除括號的法則倒過來用會有所發現，考慮以下情況﹕上式可進一步透過加法的交換性質 (即 a + b = b + a) 變成以下數式﹕日後借助直式可更快捷方便﹕"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="-1.7634854771784,354.46058091286,14.69571230982,370.91977869986" href="./page31_02.php">
 			</map>

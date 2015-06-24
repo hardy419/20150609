@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/47.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/47.jpg" width="850" border="0" usemap="#Map" title="基本上我們已可計算一個有向數加或減一個正數，但是否每次都要構思那個情境或運用數線呢? 我們嘗試從已得的結果去找一些更快的方法。已有的結果如下﹕我們看到若不計正負符號，答案的數字只有 5 和 3，那麼何時會出現 5，何時會出現3?若確定數字之後，答案的正負號有沒有按規律出現?利用數線可協助我們更了解累積和抵消的由來﹕正數本身站在 0 的右方，加一個正數就再向右走；負數則本身站在 0 的左方，減一個正數就再向左走。兩者都是同一方向累積走得更遠。而答案的正負號也跟隨同一方向。"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="557.26141078838,381.50069156293,573.72060857538,397.95988934993" href="./page24_02.php">
 			</map>

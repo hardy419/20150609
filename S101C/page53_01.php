@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/116.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/116.jpg" width="850" border="0" usemap="#Map" title="例六﹕5人各出資400元合股投資生意，但生意虧蝕3800元，問每人仍有資產多少。"/>
 			<map name="Map" id="Map">
 				
 			</map>

@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數的四則運算是將前面所學的綜合運用，最重要留意計算次序，按部就班。</div>
-			<img src="images/page/95.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/95.jpg" width="850" border="0" usemap="#Map" title="例二﹕計算[(+5)×(12 -19)]-[(-8)×(-9 +13)]"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="22.92531120332,87.586445366528,39.384508990318,104.04564315353" href="./page44_01.php">
 			</map>

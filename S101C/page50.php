@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/109.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/109.jpg" width="850" border="0" usemap="#Map" title="例三﹕ 志強是公司的信差，在公司所在的大厦中上落派信，今天他的行程先是上10層樓、再落5層樓、再上3層樓、再落7層樓、再落8層樓、最後上2層樓。(a) 問最後他距離出發的樓層上落了多少層樓 (即淨上落多少層樓)。(b) 若題目指明他起初是在9樓而問他最後在哪一層樓的話，做法可變成﹕" />
 			<map name="Map" id="Map">
 				<area shape="rect" coords="19.986168741355,142.84232365145,36.445366528354,159.30152143845" href="./page50_01.php">
 			</map>

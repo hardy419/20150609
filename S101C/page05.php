@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/10.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/10.jpg" width="850" border="0" usemap="#Map" title="在前頁我們得出﹕是否每次都要做如此類比的思考才能得到負數的結果呢? 可否直接有一個計算的方法呢?"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="74.066390041494,198.09820193638,90.525587828492,214.55739972337" href="./page05_01.php">
 			</map>

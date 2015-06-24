@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/13.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/13.jpg" width="850" border="0" usemap="#Map" title="在前頁我們得出﹕運用這方法計算就可得以下答案﹕練習﹕計算下列各題"/>
 			<map name="Map" id="Map">
               <area id="check-anw" shape="rect" coords="725,489,829,526" href="#" />
 			</map>

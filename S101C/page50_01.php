@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%">有向數可以應用在日常生活之中。</div>
-			<img src="images/page/110.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/110.jpg" width="850" border="0" usemap="#Map" title="例三﹕ 志強是公司的信差，在公司所在的大厦中上落派信，今天他的行程先是上10層樓、再落5層樓、再上3層樓、再落7層樓、再落8層樓、最後上2層樓。(a) 問最後他距離出發的樓層上落了多少層樓 (即淨上落多少層樓)。(b) 若題目指明他起初是在9樓而問他最後在哪一層樓的話，做法可變成﹕第一個做法是將所有上落層數合併，所以用加法，而以正負來代表上落。第二個做法是以出發樓層作第一個層數，按上落而分別做加減數。同學可以留意當中不同但又呼應的地方。"/>
 			<map name="Map" id="Map">
 				
 			</map>

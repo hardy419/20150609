@@ -23,7 +23,7 @@
 			</div><!--cont_title-->
 			<div class='cont'>
 			<div class="cont_content" style="width:100%"></div>
-			<img src="images/page/78.jpg" width="850" border="0" usemap="#Map"/>
+			<img src="images/page/78.jpg" width="850" border="0" usemap="#Map" title="現假設小明一直以每小時7km的速度向西方跑，問在下列時刻中他在哪裏?"/>
 			<map name="Map" id="Map">
 				<area shape="rect" coords="437.34439834025,38.208852005533,453.80359612725,54.668049792531" href="./page36_03.php">
 			</map>
